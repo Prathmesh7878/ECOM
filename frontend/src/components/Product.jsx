@@ -19,9 +19,7 @@ const Product = () => {
           `http://localhost:8080/api/product/${id}`
         );
         setProduct(response.data);
-        if (response.data.imageName) {
-          fetchImage();
-        }
+      fetchImage();  // ALWAYS call
       } catch (error) {
         console.error("Error fetching product:", error);
       }

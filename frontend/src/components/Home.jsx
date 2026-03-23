@@ -36,6 +36,7 @@ const Home = ({ selectedCategory }) => {
               return { ...product, imageUrl: "placeholder-image-url" };
             }
           })
+
         );
         setProducts(updatedProducts);
       };

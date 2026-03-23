@@ -4,9 +4,11 @@ import com.example.ecom.ecomApp.product.Product;
 import com.example.ecom.ecomApp.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.net.http.HttpRequest;
 import java.util.List;
@@ -34,10 +36,26 @@ public class ProductController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-    @PostMapping("/add_product")
-    public Product addProducts(@RequestBody Product product){
-        service.addProduct(product);
-        return product;
+    @PostMapping("/product")
+    public ResponseEntity<?> addProducts(@RequestPart Product product,@RequestPart MultipartFile imageFile){
+
+       try{
+           Product pro= service.addProduct(product,imageFile);
+           return new ResponseEntity<>(pro,HttpStatus.CREATED);
+       } catch (Exception e) {
+           return new ResponseEntity<>(e.getMessage(),HttpStatus.INTERNAL_SERVER_ERROR);
+       }
+    }
+    @GetMapping("/product/{pid}/image")
+    public ResponseEntity<byte[]> getImgByPid(@PathVariable int pid){
+        Product product=service.getById(pid);  //it gives product with id=pid
+        //storing image of product with id=pid
+        byte[] imgFile=product.getImgData();
+        return ResponseEntity
+                .ok()
+                .contentType(MediaType.valueOf(product.getImgType()))
+                .body(imgFile);
+
     }
 
 }

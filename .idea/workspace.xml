@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7515983-af0d-46f3-afca-b3b4b85b0763" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e7515983-af0d-46f3-afca-b3b4b85b0763" name="Changes" comment="CORS ,linked with frontend,StatusCode implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/EcomAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/EcomAppApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/product/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Product.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774195589602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CORS ,linked with frontend,StatusCode implemented">
+      <option name="closed" value="true" />
+      <created>1774286185172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774286185172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FULL STACK ECOM WEBAPPLICATION-&#10;springboot,spring JPA,MVC architecture,reactJS" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="CORS ,linked with frontend,StatusCode implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="CORS ,linked with frontend,StatusCode implemented" />
   </component>
 </project>

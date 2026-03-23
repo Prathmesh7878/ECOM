@@ -4,7 +4,9 @@ import com.example.ecom.ecomApp.product.Product;
 import com.example.ecom.ecomApp.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.List;
 
 @Service
@@ -17,8 +19,12 @@ public class ProductService {
         return repository.findAll();
     }
 
-    public void addProduct(Product product) {
+    public Product addProduct(Product product, MultipartFile image) throws IOException {
+        product.setImgName(image.getOriginalFilename());
+        product.setImgType(image.getContentType());
+        product.setImgData(image.getBytes());
         repository.save(product);
+        return product;
     }
 
     public Product getById(int id) {
