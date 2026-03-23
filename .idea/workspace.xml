@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7515983-af0d-46f3-afca-b3b4b85b0763" name="Changes" comment="initial commit" />
+    <list default="true" id="e7515983-af0d-46f3-afca-b3b4b85b0763" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/EcomAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/EcomAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/java/com/example/ecom/ecomApp/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecomApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecomApp/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +33,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prathmesh7878&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prathmesh7878/ECOM.git&quot;,
+    &quot;accountId&quot;: &quot;bb09b285-1976-4164-b338-a3360d394b8e&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,9 +52,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3BIn0IyeIKHJNisJs88bLyu1LEq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,11 +62,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ECOM.executor": "Run",
+    "Application.EcomAppApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EcomAppApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -52,6 +80,22 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\SPRING_BOOT_MAIN\ECOM\backend\ecomApp\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EcomAppApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ecom.ecomApp.EcomAppApplication" />
+      <module name="ecomApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
